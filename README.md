@@ -19,8 +19,12 @@ kubectl port-forward svc/argocd-server -n argocd 8080:443
 Navigate the url in:
 https://localhost:8080
 
+![](https://burzaco.files.wordpress.com/2023/04/screenshot-2023-04-04-at-01.03.02.png?w=1400)
+
 If you want more information about how to deployment this application, please, check those blogs article:
 
-https://juanmercadoit.com/2023/04/09/gitops-argo-cd-and-application-deployment-demo-part-i/
+[GITOPS: ARGO CD AND APPLICATION DEPLOYMENT DEMO – PART I](https://juanmercadoit.com/2023/04/09/gitops-argo-cd-and-application-deployment-demo-part-i/)
 
-Thank you and happy learning!
+Thank you for your feedback and happy learning!
+
+**Juan Andres Mercado**
