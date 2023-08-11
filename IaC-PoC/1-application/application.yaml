@@ -1,0 +1,14 @@
+# Deployment of application in the background console
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: my-app
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: 
+    targetRevision: HEAD
+    path: my-app/my-app
+  destination:
+    server: https://kubernetes.default.svc
